@@ -14,7 +14,6 @@ body{
     align-items: center;
     gap: 0rem;
     justify-content: center;
-    background-color:#ECFFDC;
 }
 h1{
     width: 45rem;
@@ -26,6 +25,7 @@ h1{
 
 }
 textarea{
+    background-color:#ECFFDC
     padding: 1rem;
     width: 44.72rem;
     border: 2px solid cadetblue;
