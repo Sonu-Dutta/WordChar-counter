@@ -17,12 +17,32 @@ body{
 }
 h1{
     width: 45rem;
-    background-color: cadetblue;
+    background-image: linear-gradient(to right,	#351d49,	#302d6d,	#096f4e,cadetblue);
     color: white;
     padding: 1rem ;
     border-radius: .4rem .4rem 0 0;
     text-align: center;
 
+}
+h1,p{
+    animation-name: sonu1 ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes sonu1{
+    0%{
+        background-image: linear-gradient(to right,	#351d49,	#302d6d,	#096f4e,cadetblue);
+    }
+    25%{
+        background-image: linear-gradient(to right,	#351d49,	#302d6d,	#096f4e);
+    }
+    75%{
+        background-image: linear-gradient(to right,#096f4e,#351d49,	#302d6d,#096f4e	);
+    }
+    100%{
+        background-image: linear-gradient(to right,	cadetblue,#096f4e,#351d49,	#302d6d,);
+    }
 }
 textarea{
     padding: 1rem;
@@ -30,12 +50,12 @@ textarea{
     border: 2px solid cadetblue;
     outline: none;
     font-size: 1.1rem;
-    background-color: rgba(230, 252, 242,.7);
+    background-color: rgb(9, 111, 78,.2);
 }
 p{
     width: 45rem;
     text-align: center;
-    background-color: cadetblue;
+    background-image: linear-gradient(to left,	#430d4b,	#074552,#096f4e);
     color: white;
     font-weight: bold;
     padding: 1rem ;
