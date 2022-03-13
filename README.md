@@ -2,7 +2,7 @@
 
 ## Overview
 
-#### This is a Project on JavaScript, that gives the count of words and characters entered in the textbox!
+#### This is a Project on JavaScript, with some animation using css that gives the count of words and characters entered in the textbox!
 
 ![](./media/design.png)
 
